@@ -1,0 +1,23 @@
+# Core
+pydantic==2.*
+python-dotenv==1.0.0
+
+# System hooks and clipboard
+pyperclip==1.8.2
+keyboard>=0.13.5
+
+# Overlay (Tkinter viene incluido con Python en Windows/macOS;
+# en Linux puede requerir instalar el paquete python3-tk del sistema)
+pillow>=10.0.0
+
+# Backend "cloud"
+anthropic>=0.7.0
+
+# Backend "local" (Ollama, HTTP)
+requests>=2.31.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
